@@ -1,0 +1,572 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.navbar ul li{
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+   
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #222;
+    
+        
+   
+  
+}
+
+
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1200;
+    box-shadow: 0 0 30px rgb(0 0 0 / 15%);
+    
+}
+#active{
+    position: relative;
+}
+#active::after{
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 3px;
+    background: #222;
+    bottom: 0;
+    left: 13px;
+}
+.left a{
+    text-decoration: none;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+    color: #000;
+}
+.pic{
+   
+    text-align: right; 
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+.pic img{
+    border-radius: 4px;
+}
+.tex h1{
+    text-align: left;
+    padding-top: 150px;
+    -webkit-text-stroke: 2px #000;
+    color: #fff;
+    font-size: 60px;
+    display: block;
+}
+.fully {
+    
+    background-color: #f9f9f9;
+    margin-top: 70px;
+}
+.tex span{
+    color: #555;
+    font-size: 20px;
+}
+.about{
+    margin-top: 40px;
+}
+.ab{
+    background: rebeccapurple;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(0,0,0,.05);
+    text-transform: uppercase;
+    padding: 6px 10px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #333;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+.bigt{
+    
+    padding-top: 20px;
+    
+}
+.bigt h2{
+    line-height: 1.4;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Poppins";
+    color: #000;
+}
+.bot{
+    padding-top: 40px;
+}
+.atext p{
+    padding-top: 40px;
+    color: #767676;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: .5px;
+    
+    font-weight: 400;
+}
+.abbutton{
+    padding: 20px 50px;
+    background: #000;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s cubic-bezier(0,0,.1,1);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+.abbutton:hover{
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    border: 2px solid #000;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.portfol{
+    background-color: #f9f9f9;
+    margin-top: 150px;
+    padding-bottom: 140px;
+}
+.as h2{
+    font-weight: 800;
+    font-family: "Poppins";
+    font-size: 30px;
+    color: #000;
+    margin-top: 10px;
+}
+.ab .bc{
+    padding-top: 20px;
+}
+.first{
+   
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  
+    
+}
+.overi{
+    position: absolute;
+    bottom: 0;
+    
+    transform: scale(0);
+
+   
+    
+}
+.first:hover .overi{
+    transform: scale(1.1); 
+   top: 0;
+  
+   
+    
+}
+.subfirst{
+    width: 100%;
+    height: 76px;
+    background: hsla(0,0%,100%,.6);
+    position: absolute;
+    bottom: -100;
+    text-align: center;
+    line-height: 76px;
+    cursor: pointer;
+    color: #000;
+    font-size: 18px;
+    font-family: "poppins";
+   
+    
+  
+    
+}
+.first:hover .subfirst{
+    transform: scale(1);
+    bottom: 0;
+    transition: all linear .5s;
+    
+    
+}
+
+.subfirst p{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "poppins";
+
+}
+.boto{
+    margin-top: 23px;
+}
+#dk{
+    font-family: "poppins";
+    font-weight: 800;
+    font-size: 31px;
+}
+#skilp{
+    padding-top: 40px;
+    color: #767676;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: .5px;
+    font-weight: 400;
+}
+.nine95{
+    width: 100%;
+    height: 6px;
+    background: rgba(0,0,0,.05);
+    position:relative;
+}
+.nine95::before{
+    content: "";
+    position: absolute;
+    background: #130c0c;
+    bottom: 0;
+    
+    width: 90%;
+    height: 6px;
+}
+
+.lni{
+    position: absolute;
+    bottom: 10px;
+    color: #000;
+    font-weight: 400;
+
+}
+.rni{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #000;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+.nine96{
+    width: 100%;
+    height: 6px;
+    background: rgba(0,0,0,.05);
+    position:relative;
+    margin-top: 70px;
+}
+.nine96::before{
+    content: "";
+    position: absolute;
+    background: #130c0c;
+    bottom: 0;
+    
+    width: 70%;
+    height: 6px;
+}
+
+.lnik{
+    position: absolute;
+    bottom: 10px;
+    color: #000;
+    font-weight: 400;
+
+}
+.rnil{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #000;
+    font-weight: 400;
+}
+.pado{
+    padding-right: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nine97{
+    width: 100%;
+    height: 6px;
+    background: rgba(0,0,0,.05);
+    position:relative;
+    margin-top: 90px;
+}
+.nine97::before{
+    content: "";
+    position: absolute;
+    background: #130c0c;
+    bottom: 0;
+    
+    width: 80%;
+    height: 6px;
+}
+
+.lnikl{
+    position: absolute;
+    bottom: 10px;
+    color: #000;
+    font-weight: 400;
+
+}
+.rnilm{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #000;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kal{
+    padding-top: 20px;
+}
+
+.skils{
+    padding-top: 40px;
+}
+
+.brand{
+    margin-top: 100px;
+    
+}
+.brand img{
+    cursor: pointer;
+}
+.brand img:hover{
+    opacity: 0.8;
+}
+.testimonlas{
+    margin-top: 50px;
+    background-color: #f9f9f9;
+   margin-bottom: 50px;
+   padding-bottom: 30px;
+}
+.testtext p{
+    color: #767676;
+    font-weight: 400;
+    cursor: pointer;
+}
+.testtext{
+    padding-top: 20px;
+}
+#tespic{
+    
+    border-radius: 40px;
+    display: inline-block;
+}
+.tespic{
+    position: relative;
+    cursor: pointer;
+}
+.tite{
+    position: absolute;
+    left: 90px;
+    top: 6px;
+}
+#por{
+    
+    display: inline-block;
+}
+.lfirst{
+    position: relative;
+    overflow: hidden;
+}
+.sala{
+    position: absolute;
+    top: -10000;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    
+    
+
+
+}
+.lfirst:hover .sala{
+    top: 0;
+    transform: scale(1.1);
+    transition: all linear .3s;
+    
+}
+
+.outlineb{
+    padding-top: 48%;
+    padding-left: 32%;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact {
+	font-family: 'Roboto', sans-serif;
+	
+	
+    background-color: #f9f9f9;
+	margin: 0 auto;
+	box-sizing: border-box;
+	margin-top: 90px;
+    padding-bottom: 40px;
+
+	
+}
+.address{
+	width: 400px;
+	
+	
+	float: left;
+	padding-left: 100px;
+	padding-top: 50px;
+    color: #767676;
+    font-weight: bold;
+	
+	
+}
+.ronok{
+	text-align: center;
+	color: #767676;
+	font-weight: bold;
+}
+.form{
+	width: 400px;
+	
+	
+	float: left;
+}
+.textarea{
+	width: 400px;
+	
+	
+	float: left;
+	text-align: center;
+}
+#send{
+	margin-top: 20px;
+	font-size: 20px;
+	color: #767676;
+	background: #fff;
+	padding: 8px;
+	border: 2px solid #888;
+}
+#send:hover{
+    background: #ff8521;
+    outline: 0;
+    border: 0;
+    color: #fff;
+}
+.from:focus{
+	color: white;
+}
+.foote{
+width: 100%;
+
+
+background-color: #000;
+clear: both;
+margin-top: 210px;
+
+
+
+}
+.fot{
+    text-align: center;
+    line-height: 100px;
+    color: #f9f9f9;
+    
+}
+.aro{
+    width: 40px;
+    height: 40px;
+    background-color: azure;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: inline-block;
+
+}
+.aro i{
+    text-align: center;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 4 px;
+        cursor: pointer;
+        transition: all 1s cubic-bezier(0,0,.1,1);
+        box-shadow: 0 0 30px rgb(0 0 0 / 15%);
+        display: inline-block;
+}
+.aro a{
+    display: inline-block;
+}
+
